@@ -40,7 +40,7 @@ public class Quarterly extends FrequencyOfCompounding {
         JFrame frame;
         JPanel panel;
         frame = new JFrame(); // Create a JFrame object
-        label = new JLabel("After investing $" + principleInvested + " for " + compoundingPeriods + " years, at an interest rate of " + (interestRate)*100 + "% that is compounded annualy, your total amount is $" + finalAnswer);
+        label = new JLabel("After investing $" + principleInvested + " for " + compoundingPeriods + " years, at an interest rate of " + (interestRate)*100 + "% that is compounded quarterly, your total amount is $" + finalAnswer);
         panel = new JPanel(); // Create a JPanel object
         panel.setBorder(BorderFactory.createEmptyBorder(100, 100, 100, 100)); 
         panel.setLayout(new GridLayout(0, 1));
